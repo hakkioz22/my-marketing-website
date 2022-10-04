@@ -1,0 +1,92 @@
+.bg-darkblue{
+    background-color: #073B4C;
+}
+
+.top-space{
+    padding: 4% 10%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: 2em;
+    font-weight: bold;
+}
+
+span{
+    margin-left: 10px;
+}
+
+/* @media is used to put "screen size condition"
+screen size is small then rotate 0
+screen size is bigger than small rotate 25degree 
+@media(min-width:768px) it means apply the condition for screens that is bigger than pixels*/
+@media(min-width:768px){
+.img1{
+    transform: rotate(25deg);
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 90%;
+    }
+}
+
+@media(max-width:767px){
+    .img1{
+        transform: rotate(0deg);
+        margin-top: 10%;
+        width: 90%;
+    }
+}
+
+.slogan{
+    font-family: 'Ubuntu';
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.download-links{
+    margin-left: 20%;
+    font-family: 'Ubuntu';
+    justify-content: left;
+    display: flex;
+}
+.fa-solid{
+    color: gold;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: 'Ubuntu';
+}
+
+.comment{
+    padding: 20%;
+}
+
+.comment-p{
+    font-size: 1.0em;
+    font-family: 'Ubuntu';
+}
+
+.img2{
+    width: 10%;
+}
+.pricing{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+.footer{
+    color: white;
+    background-color: #073B4C;
+    padding: 30px;
+    
+}
+
+.copyright{
+    margin-left: 75%;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    
+}
+

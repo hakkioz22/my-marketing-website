@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Email Website</title>
+        <!-- to use bootstrap firstly we need connect each other which we need file -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/my-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <!--linking jquery and bootstrap.js files  -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        
+        <section id="top-part">
+            <div class="container-fluid bg-darkblue text-light p-4">
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-warning rounded-pill">
+                    <div class="container-fluid ">
+                      <a class="navbar-brand" href="#"> <span>E-mail</span></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> <!-- Home ve Contact Us linklerini en sağa gönderdik justify-content-end-->
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link" href="#">Contact Us!</a>
+                          </div>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12"> <!-- Large ve medium boyutlarda birinci sütun ekranın yarısını kaplasın, küçük ekranda ise ilk sütun tamamını kapsasın diğer kısım aşağıya gelsin-->
+                        <h1 class="slogan">Do you want to send your product to millions, 
+                            with just one click? See our new services and 
+                            amazing plans. Contact us to learn more about our services. 
+                            We are here to help you!</h1>
+                            <div class="download-links">
+                                <button type="button" class="btn btn-secondary btn-lg m-1"><i class="fa-brands fa-apple"></i>Download</button>
+                                <button type="button" class="btn btn-light btn-lg m-1"><i class="fa-brands fa-android"></i>Download</button>
+                            </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/mobile.png" class="img1" alt="phone_img">
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <section id="ads">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <i class="fa-sharp fa-solid fa-4x fa-bounce fa-rocket"></i>
+                        <h1>Fast Connection</h1>
+                            <p>Connect with many people within 10 minutes</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <i class="fa-solid fa-dollar-sign fa-4x fa-bounce"></i>
+                        <h1>Great Pricing</h1>
+                        <p>Make your advertisement with low cost</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <i class="fa-solid fa-face-smile fa-4x fa-bounce"></i>
+                        <h1>Permanents Adds</h1>
+                        <p>Emails are becomming perminent in the customers</p>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <i class="fa-solid fa-comments fa-4x fa-bounce"></i>
+                        <h1>One on one Communication</h1>
+                        <p>You can connect with directly with the customers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comments">
+            <div class="container-fluid bg-darkblue text-light">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="text-center comment">
+                            <p class="comment-p">Very fast responsive customer service! I sent multiple mails within minutes. There were people who were responded mimediatelly. It is very very exciting and awesome system.</p>
+                            <img src="images/avatar.jpeg" class="img2 rounded-circle" alt="img1"/>
+                            <span>John Lennon</span>
+                            <!-- span is used for adding same line code -->
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="text-center comment">
+                            <p class="comment-p">I honestly wasn't expecting such a good quality service with this price. Custumer service was very helpful. I keep getting fast responses from the customers.</p>
+                            <img src="images/avatar.jpeg" class="img2 rounded-circle" alt="avatar">
+                            <span>Tom Hanks</span>
+                        </div>
+                        
+                      </div>
+                      <div class="carousel-item">
+                        <div class="text-center comment">
+                            <p class="comment-p">I got different similar Email marketing services, but non of them was fast and reliable than your service. I will be your permanent customer and I am very happy with your service!</p>
+                            <img src="images/avatar.jpeg" class="img2 rounded-circle" alt="avatar">
+                            <span>Jim Carrey</span>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </section>
+
+        <section id="pricing">
+
+            <div class="container-fluid">
+                <div class="row pricing">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <h5 class="card-header">Monthly</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">9.99$</h5>
+                              <p class="card-text">
+                                1.000 Main Daily <br>
+                                7/24 Communication <br>
+                                No technical support</p>
+                              <a href="#" class="btn btn-primary">BUY</a>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <h5 class="card-header">Yearly</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">19.99$</h5>
+                              <p class="card-text">
+                                1.000 Main Daily <br>
+                                7/24 Communication <br>
+                                Yes technical support
+                                </p>
+                              <a href="#" class="btn btn-primary">BUY</a>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card text-center">
+                            <h5 class="card-header">Lifelong</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">29.99$</h5>
+                              <p class="card-text">
+                                1.000 Main Daily <br>
+                                7/24 Communication <br>
+                                Yes technical support</p>
+                              <a href="#" class="btn btn-primary">BUY</a>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <div class="container-fluid bg-darkblue text-light footer">
+                <a target="_blank" href="twitter.com"> <i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a target="_blank" href="facebook.com"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a target="_blank" href="linkedin.com"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a target="_blank" href="instagram.com"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <!-- <span class="copyright"> &copy; Copyright 2022 </span> -->
+                <span class="copyright"> &copy; Copyright<span id="current-year"></span></span>
+            </div>
+
+        </section>
+        
+    
+    </body>
+    <!-- script tag used for jscript code -->
+    <script src="index.js"></script>
+    
+</html>
